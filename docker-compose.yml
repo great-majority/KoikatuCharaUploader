@@ -1,0 +1,10 @@
+version: '2'
+services:
+  redis:
+    image:
+      redis
+    ports:
+      - 127.0.0.1:8001:6379
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+#      - ./redis:/data

@@ -14,7 +14,7 @@ Koikatu.exe
 # 使い方
 python 3.xとdocker-composeが使える環境が必要
 ```
-$ git clone https://github.com/106-/KoikatuUploadServer
+$ git clone https://github.com/great-majority/KoikatuUploadServer
 $ cd KoikatuUploadServer
 $ pip install -r requirements.txt
 $ docker-compose up -d
